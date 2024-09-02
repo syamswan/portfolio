@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       navItems.forEach((navItem) => navItem.classList.remove("navActiveStyle"));
       item.classList.add("navActiveStyle");
       content[index].scrollIntoView();
+      document.getElementsByClassName('navbar-collapse').navbar.classList.remove('show')
     });
   });
 

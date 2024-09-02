@@ -180,6 +180,7 @@ ul li {
 
 .scrolled {
     background-color: #142c4a !important;
+    height: 50px;
 }
 
 #role {
