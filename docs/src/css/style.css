@@ -27,6 +27,10 @@ body {
     background-color: #fff;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 body nav {
     /* background-color: #023046 !important; */
     position: fixed !important;
@@ -36,6 +40,25 @@ body nav {
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;
+}
+
+@media (max-width: 992px) {
+
+    .navbar-brand {
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contactUrls span {
+        padding: 0px !important;
+    }
+
+    .p-5 {
+        padding: 2rem !important;
+    }
+
 }
 
 ul li a {
@@ -62,14 +85,6 @@ ul li {
 #about li {
     list-style: none;
 }
-
-/* #about ul { */
-/* display: grid;
-    grid-template-columns: repeat(2, minmax(156px, 221px)); */
-/* gap: 0px 10px; */
-/* padding-left: 52px; */
-/* margin: 20px; */
-/* } */
 
 .progress-bar {
     background-color: #18aacb;
