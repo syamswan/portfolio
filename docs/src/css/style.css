@@ -183,6 +183,10 @@ ul li {
     height: 50px;
 }
 
+.show ul {
+    background-color: #142c4a !important;
+}
+
 #role {
     overflow: hidden;
     white-space: nowrap;

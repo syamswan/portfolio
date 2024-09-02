@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
       navItems.forEach((navItem) => navItem.classList.remove("navActiveStyle"));
       item.classList.add("navActiveStyle");
       content[index].scrollIntoView();
-      document.getElementsByClassName('navbar-collapse').navbar.classList.remove('show')
+      document
+        .getElementsByClassName("navbar-collapse")
+        .navbar.classList.remove("show");
     });
   });
 
@@ -21,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
       headerNav.classList.remove("scrolled");
       navItems.forEach((navItem) => navItem.classList.remove("navActiveStyle"));
     }
+
+    document
+      .getElementsByClassName("navbar-collapse")
+      .navbar.classList.remove("show");
 
     handleScroll(navItems, content);
   });
@@ -35,6 +41,10 @@ function navbarBrandClick() {
   const content = document.querySelectorAll(".content");
   content[0].scrollIntoView();
 }
+
+document.querySelectorAll(".navbar-toggler")[0].addEventListener("click", function (event) {
+  document.querySelector("nav").classList.add("scrolled");
+})
 
 function handleScroll(navItems, content) {
   let scrollPosition =
