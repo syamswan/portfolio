@@ -96,7 +96,7 @@ function loadAboutInfo() {
 
 function addAboutSkills() {
   let skillList = ["Javascript", "Jquery", "Angular", "Reactjs"];
-  let skillListPercentage = ["100%", "100%", "90%", "60%"];
+  let skillListPercentage = ["100%", "100%", "100%", "90%"];
 
   let skillsId = document.getElementById("aboutMeSkills");
 
