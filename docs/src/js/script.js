@@ -67,9 +67,14 @@ function handleScroll(navItems, content) {
 }
 
 function loadHomeInfo() {
-  const content = `I have over 3 plus years of experience in designing, developing, and  maintaining front-end web
-  applications. I excel in collaborating with cross-functional teams and consistently deliver projects on time.
-  Currently I am focused on developing projects in angular using machine learning in cyber security at CISAI.`;
+  const content = `I have over 4 plus years of experience in designing, developing, and maintaining front-end 
+                   web applications using JavaScript, React.js, and Angular. I have a strong understanding of web 
+                   accessibility standards, cross-browser compatibility, and performance optimization. I excel in 
+                   collaborating with cross-functional teams, delivering user-centric products. My experience 
+                   includes REST API integration, version control with Git, micro front-end project setup, and 
+                   creating wireframes with Canva. Currently, I am focused on Angular and JavaScript frameworks 
+                   for cybersecurity projects at CISAI while staying updated with the latest front-end technologies
+                   and best practices for modern, efficient development.`;
 
   document.getElementById("homeContent").innerHTML = content;
 }
@@ -81,12 +86,11 @@ function loadAboutInfo() {
   WordPress to create an online organic shop, which taught me in-depth knowledge about HTML, CSS, and
   the basics of web application flow.`;
 
-  const content2 = ` I have the privilege of working at CISAI/Innspark, where I initially started my career as a fresher.
-  I began as a graphic designer, creating brochures and wireframes. After three months, I transitioned
-  to the development field as a front-end developer, and I now work as a Senior Front-End Developer. I
-  have developed many projects, such as vehicle tracking systems, news portals, and health and
-  cybersecurity projects. My current focus is on designing and developing projects based on machine
-  learning.`;
+  const content2 = ` I began my career at CISAI/Innspark as a graphic designer, creating brochures and wireframes,
+   before transitioning to front-end development after three months. Now a Senior Front-End Developer, I have 
+   built and delivered numerous projects, including vehicle tracking systems, news portals, and health and 
+   cybersecurity solutions. With hands-on experience in scalable React applications, SEO optimization, and 
+   XML configuration, my current focus is on designing and developing cybersecurity projects at CISAI.`;
 
   document.getElementById("aboutContent").innerHTML =
     content1 + "<br> <br>" + content2;
@@ -96,7 +100,7 @@ function loadAboutInfo() {
 
 function addAboutSkills() {
   let skillList = ["Javascript", "Jquery", "Angular", "Reactjs"];
-  let skillListPercentage = ["100%", "100%", "100%", "90%"];
+  let skillListPercentage = ["100%", "100%", "100%", "100%"];
 
   let skillsId = document.getElementById("aboutMeSkills");
 
@@ -124,7 +128,7 @@ function loadExperienceInfo() {
     "Dream Cyber Solutions, Kadayanallur - Tamil Nadu",
   ];
   const expContentArray = [
-    "Specializing in JavaScript and Angular, I took on leadership roles in developing user-friendly interfaces for a range of projects, including vehicle tracking systems, AI initiatives, and networking solutions. My efforts ensured seamless and intuitive user experiences, significantly enhancing project outcomes. Additionally, I provided mentorship and support to junior front-end developers, fostering a collaborative environment that strengthened our tech team and improved overall efficiency. Through my expertise and guidance, I contributed to the successful delivery of high-quality, innovative solutions.",
+    "Experienced Senior Front-End Developer with over four years of expertise in building dynamic web applications using JavaScript, React.js, and Angular. Led the development of high-traffic projects, including news portals, vehicle tracking systems, AI initiatives, and cybersecurity solutions, ensuring seamless user experiences and optimal performance. Proficient in micro-front-end architecture, RESTful APIs, CI pipelines, SEO optimization, and responsive design. Played a key role in mentoring junior developers, conducting code reviews, and fostering a collaborative environment, contributing to the successful delivery of innovative and high-quality solutions.",
     "Hands-on experience in front-end web development, focusing on HTML, CSS, and JavaScript during the internship at this Company. Developed foundational skills in creating and styling web pages, as well as implementing basic interactivity.",
   ];
   const expType = ["", "(Internship)"];
